@@ -1,6 +1,6 @@
 import logging
-from ...SotiApiClient import SotiApiClient
-from ...helper.path import clean_path
+from SotiApiClient import SotiApiClient
+from helper.path import clean_path
 
 # Get all device groups
 async def get_all_devicegroups(client:SotiApiClient):

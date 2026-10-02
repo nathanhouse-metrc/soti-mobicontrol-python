@@ -3,8 +3,8 @@
 # The code also uses the get_devicegroup_reference_id function to get the reference id of the device group
 import logging
 
-from ...SotiApiClient import SotiApiClient
-from ..devicegroups.get_devicegroups import get_devicegroup_reference_id
+from SotiApiClient import SotiApiClient
+from endpoints.devicegroups.get_devicegroups import get_devicegroup_reference_id
 
 # Get a batch of devices from the SOTI API
 async def get_device_batch(client:SotiApiClient, device_group_path:str, filter, include_subgroups:bool, verify_and_sync:bool, skip:int, take:int):

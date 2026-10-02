@@ -1,6 +1,6 @@
 from typing import AsyncGenerator
-from .get_device_batch import get_device_batch
-from ...SotiApiClient import SotiApiClient
+from endpoints.device.get_device_batch import get_device_batch
+from SotiApiClient import SotiApiClient
 import logging
 from time import perf_counter
 

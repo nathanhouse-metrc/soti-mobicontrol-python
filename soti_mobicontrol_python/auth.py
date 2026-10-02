@@ -2,7 +2,7 @@ import base64
 import logging
 import httpx
 from datetime import datetime, timedelta
-from .soti_mobicontrol_config import SotiMobiControlServerConfig
+from soti_mobicontrol_config import SotiMobiControlServerConfig
 
 class Auth:
     def __init__(self, soti_config: SotiMobiControlServerConfig):

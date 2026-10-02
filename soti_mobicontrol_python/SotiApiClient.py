@@ -1,6 +1,6 @@
 import httpx
-from .auth import Auth
-from .soti_mobicontrol_config import SotiMobiControlServerConfig
+from auth import Auth
+from soti_mobicontrol_config import SotiMobiControlServerConfig
 
 class SotiApiClient:
     def __init__(self, soti_config: SotiMobiControlServerConfig):
